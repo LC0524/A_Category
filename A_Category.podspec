@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "A_Category"
-  s.version      = "8"
+  s.version      = "9"
   s.summary      = "A_Category."
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # s.license      = "MIT (example)"
+   s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,9 +53,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-#  s.author             = { "CasaTaloyum" => "casatwy@msn.com" }
+  s.author             = { "Lc" => "sjlh@jdjt.net" }
   # Or just: s.author    = "CasaTaloyum"
-  # s.authors            = { "CasaTaloyum" => "casatwy@msn.com" }
+   s.authors            = { "Lc" => "sjlh@jdjt.net" }
   # s.social_media_url   = "http://twitter.com/CasaTaloyum"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
